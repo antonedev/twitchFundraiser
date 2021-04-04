@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "baffelita";
+  src: url("./baffelita.otf");
+}
+
+#viewport {
+  display: flex;
+  justify-content: center;
+}
+
+.fade-in {
+  animation: fade-in 0.5s linear 1;
+}
+
+.fade-out {
+  animation: fade-out 0.5s linear 1 forwards;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.34s ease 6 alternate;
+  font-family: "baffelita", Helvetica, sans-serif;
+  letter-spacing: 0.13em;
+  font-size: 80px;
+  color: #87328e;
+  text-shadow: 0 1px 0 #4d1d51, 0 2px 0 #4d1d51, 0 3px 0 #4d1d51, 0 4px 0 #4d1d51,
+    0 5px 0 #4d1d51, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 .space {
+  padding-left: 1vw;
+}
+
+h1 span:nth-child(2) {
+  animation-delay: 0.09s;
+}
+
+h1 span:nth-child(3) {
+  animation-delay: 0.12s;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: 0.14s;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: 0.16s;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: 0.18s;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: 0.2s;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: 0.22s;
+}
+
+h1 span:nth-child(9) {
+  animation-delay: 0.24s;
+}
+
+h1 span:nth-child(10) {
+  animation-delay: 0.26s;
+}
+
+h1 span:nth-child(11) {
+  animation-delay: 0.28s;
+}
+
+h1 span:nth-child(12) {
+  animation-delay: 0.3s;
+}
+
+h1 span:nth-child(13) {
+  animation-delay: 0.32s;
+}
+
+h1 span:nth-child(14) {
+  animation-delay: 0.34s;
+}
+
+h1 span:nth-child(15) {
+  animation-delay: 0.36s;
+}
+
+h1 span:nth-child(16) {
+  animation-delay: 0.38s;
+}
+
+h1 span:nth-child(17) {
+  animation-delay: 0.4s;
+}
+
+h1 span:nth-child(18) {
+  animation-delay: 0.42s;
+}
+
+h1 span:nth-child(19) {
+  animation-delay: 0.44s;
+}
+
+h1 span:nth-child(20) {
+  animation-delay: 0.46s;
+}
+
+h1 span:nth-child(21) {
+  animation-delay: 0.48s;
+}
+
+h1 span:nth-child(22) {
+  animation-delay: 0.5s;
+}
+
+h1 span:nth-child(23) {
+  animation-delay: 0.52s;
+}
+
+h1 span:nth-child(24) {
+  animation-delay: 0.54s;
+}
+
+h1 span:nth-child(25) {
+  animation-delay: 0.56s;
+}
+
+h1 span:nth-child(26) {
+  animation-delay: 0.58s;
+}
+
+h1 span:nth-child(27) {
+  animation-delay: 0.6s;
+}
+
+h1 span:nth-child(28) {
+  animation-delay: 0.62s;
+}
+
+h1 span:nth-child(29) {
+  animation-delay: 0.68s;
+}
+
+h1 span:nth-child(30) {
+  animation-delay: 0.7s;
+}
+
+h1 span:nth-child(31) {
+  animation-delay: 0.72s;
+}
+
+h1 span:nth-child(32) {
+  animation-delay: 0.74s;
+}
+
+h1 span:nth-child(33) {
+  animation-delay: 0.76s;
+}
+
+h1 span:nth-child(34) {
+  animation-delay: 0.78s;
+}
+
+h1 span:nth-child(35) {
+  animation-delay: 0.8s;
+}
+
+h1 span:nth-child(36) {
+  animation-delay: 0.82s;
+}
+
+h1 span:nth-child(37) {
+  animation-delay: 0.84s;
+}
+
+h1 span:nth-child(38) {
+  animation-delay: 0.86s;
+}
+
+h1 span:nth-child(39) {
+  animation-delay: 0.88s;
+}
+
+h1 span:nth-child(40) {
+  animation-delay: 0.9s;
+}
+
+/* ANIMATION */
+@keyframes bounce {
+  100% {
+    top: -10px;
+    text-shadow: 0 1px 0 #4d1d51, 0 2px 0 #4d1d51, 0 3px 0 #4d1d51, 0 4px 0 #4d1d51,
+      0 5px 0 #4d1d51, 0 6px 0 #4d1d51, 0 7px 0 #4d1d51, 0 8px 0 #4d1d51, 0 9px 0 #4d1d51,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
